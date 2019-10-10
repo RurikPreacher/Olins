@@ -1,0 +1,76 @@
+.top_slider {
+    figure {
+        position: relative;
+        img {
+            min-width: 100%;
+            height: auto;
+        }
+        figcaption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .info {
+                max-width: 994px;
+                width: 100%;
+                position: relative;
+                padding-left: 90px;
+                box-sizing: border-box;
+                margin-top: -90px;
+                &:after {
+                    content: "olins";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    font-size: 373px;
+                    color: rgba(115, 73, 91, 0.05);
+                    font-family: 'Raleway', sans-serif;
+                    font-style: italic;
+                    font-weight: 900;
+                }
+                .category {
+                    color: #7f5568;
+                    font-size: 21px;
+                    font-style: italic;
+                    font-family: 'Playfair Display', serif;
+                    line-height: 1;
+                    display: block;
+                    margin-bottom: 20px;
+                }
+                h2 {
+                    font-size: 45px;
+                    color: #000;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    line-height: 1.1;
+                }
+                .readmore {
+                    color: #7f5568;
+                    font-size: 16px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: -90px;
+                    a {
+                        color: inherit;
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
