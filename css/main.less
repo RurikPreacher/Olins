@@ -1,74 +1,149 @@
-.top_slider {
-    figure {
-        position: relative;
-        img {
-            min-width: 100%;
-            height: auto;
-        }
-        figcaption {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            .info {
-                max-width: 994px;
+.header {
+    position: relative;
+    .top_slider {
+        figure {
+            position: relative;
+            img {
+                min-width: 100%;
+                height: auto;
+            }
+            figcaption {
+                position: absolute;
+                top: 0;
+                left: 0;
                 width: 100%;
-                position: relative;
-                padding-left: 90px;
-                box-sizing: border-box;
-                margin-top: -90px;
-                &:after {
-                    content: "olins";
-                    position: absolute;
-                    left: 0;
-                    top: 0;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .info {
+                    max-width: 994px;
                     width: 100%;
-                    height: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
-                    font-size: 373px;
-                    color: rgba(115, 73, 91, 0.05);
-                    font-family: 'Raleway', sans-serif;
-                    font-style: italic;
-                    font-weight: 900;
-                }
-                .category {
-                    color: #7f5568;
-                    font-size: 21px;
-                    font-style: italic;
-                    font-family: 'Playfair Display', serif;
-                    line-height: 1;
-                    display: block;
-                    margin-bottom: 20px;
-                }
-                h2 {
-                    font-size: 45px;
-                    color: #000;
-                    font-family: 'Raleway', sans-serif;
-                    font-weight: 900;
-                    text-transform: uppercase;
-                    line-height: 1.1;
-                }
-                .readmore {
-                    color: #7f5568;
-                    font-size: 16px;
-                    font-family: 'Raleway', sans-serif;
-                    font-weight: 500;
-                    margin-top: 20px;
-                    display: flex;
-                    align-items: center;
-                    margin-bottom: -90px;
-                    a {
-                        color: inherit;
-                        &:hover {
-                            text-decoration: none;
+                    position: relative;
+                    padding-left: 90px;
+                    box-sizing: border-box;
+                    margin-top: -90px;
+                    &:after {
+                        content: "olins";
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        font-size: 373px;
+                        color: rgba(115, 73, 91, 0.05);
+                        font-family: 'Raleway', sans-serif;
+                        font-style: italic;
+                        font-weight: 900;
+                    }
+                    .category {
+                        color: #7f5568;
+                        font-size: 21px;
+                        font-style: italic;
+                        font-family: 'Playfair Display', serif;
+                        line-height: 1;
+                        display: block;
+                        margin-bottom: 20px;
+                    }
+                    h2 {
+                        font-size: 45px;
+                        color: #000;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 900;
+                        text-transform: uppercase;
+                        line-height: 1.1;
+                    }
+                    .readmore {
+                        color: #7f5568;
+                        font-size: 16px;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 500;
+                        margin-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: -90px;
+                        a {
+                            color: inherit;
+                            &:hover {
+                                text-decoration: none;
+                            }
                         }
                     }
+                }
+            }
+        }
+    }
+    .nav {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 90px;
+        background: rgba(115, 72, 92,.9);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            margin-left: 45px;
+            color: #fff;
+            display: block;
+            font-size: 43px;
+            font-family: 'Raleway', sans-serif;
+            font-style: italic;
+            font-weight: 900;
+            text-decoration: none;
+            width: 20%;
+        }
+        .top_menu {
+            font-size: 0;
+            text-align: center;
+            width: 60%;
+            li {
+                display: inline-block;
+                font-size: 13px;
+                color: #fff;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-left: 20px;
+                margin-right: 20px;
+                &:hover {
+                    color: #fee489;
+                    transition: all 300ms ease-in-out;
+                }
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+            }
+            .active {
+                color: #fee489;
+            }
+        }
+        .cart {
+            display: flex;
+            align-items: center;
+            margin-right: 45px;
+            width: 20%;
+            justify-content: flex-end;
+            a {
+                display: block;
+                width: 21px;
+                height: 21px;
+                border-radius: 100%;
+                text-align: center;
+                line-height: 21px;
+                font-size: 10px;
+                color: #7f5669;
+                font-family: Arial, Helvetica, sans-serif;
+                background: #fee489;
+                text-decoration: none;
+                &:hover {
+                    background: #fff;
+                    transition: all 300ms ease-in-out;
                 }
             }
         }
