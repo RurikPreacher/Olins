@@ -1,6 +1,43 @@
 .header {
     position: relative;
     .top_slider {
+        .slick-prev {
+            font-size: 0;
+            background: rgba(0,0,0,0.1) url(../img/left.svg) center center no-repeat;
+            width: 42px;
+            height: 42px;
+            display: block;
+            border-radius: 100%;
+            border: none;
+            position: absolute;
+            top: 42%;
+            left: 0;
+            margin-top: -21px;
+            margin-left: 45px;
+            z-index: 9999;
+            &:hover {
+                background: #fee489 url(../img/left_hover.svg) center center no-repeat;
+            }
+        }
+        .slick-next {
+            font-size: 0;
+            background: rgba(0,0,0,0.1) url(../img/left.svg) center center no-repeat;
+            width: 42px;
+            height: 42px;
+            display: block;
+            border-radius: 100%;
+            border: none;
+            position: absolute;
+            top: 42%;
+            right: 0;
+            margin-top: -21px;
+            margin-right: 45px;
+            z-index: 9999;
+            transform: scale(-1,1);
+            &:hover {
+                background: #fee489 url(../img/left_hover.svg) center center no-repeat;
+            }
+        }
         figure {
             position: relative;
             img {
