@@ -1,3 +1,10 @@
+body {
+  color: #898989;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+/* Header */
 .header {
   position: relative;
 }
@@ -183,4 +190,36 @@
 .header .nav .cart a:hover {
   background: #fff;
   transition: all 300ms ease-in-out;
+}
+/* Our website*/
+.info_box {
+  display: flex;
+  align-items: stretch;
+}
+.info_box .left_box {
+  width: 50%;
+  background: url(../img/info.jpg) center center no-repeat;
+  background-size: cover;
+}
+.info_box .right_box {
+  width: 50%;
+  padding: 125px 125px 125px 90px;
+  box-sizing: border-box;
+}
+.info_box .right_box .hello {
+  font-size: 25px;
+  color: #000;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  line-height: 1;
+}
+.info_box .right_box h3 {
+  color: #000;
+  font-size: 37px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.info_box .right_box p {
+  line-height: 24px;
 }
