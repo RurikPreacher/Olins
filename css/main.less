@@ -226,3 +226,38 @@ body {
         }
     }
 }
+.skills_and_team {
+    display: flex;
+    align-items: stretch;
+    .skills {
+        width: 50%;
+        padding: 0px 90px 0px 125px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        li {
+            list-style: url(../img/dot.svg);
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 80px;
+            width: calc(50% - 80px); // не работает. нужно понять почему. пишет width: calc(-30%)
+            float: left;
+            h3 {
+                color: #000;
+                font-size: 16px;
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                margin-bottom: 23px;
+            }
+            p {
+                font-size: 12px;
+                line-height: 18;
+            }
+        }
+    }
+    .team {
+        width: 50%;
+        background: #b7e3b9;
+    }
+}
