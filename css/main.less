@@ -239,8 +239,8 @@ body {
             list-style: url(../img/dot.svg);
             margin-top: 30px;
             margin-bottom: 30px;
-            margin-left: 80px;
-            width: calc(50% - 80px); // не работает. нужно понять почему. пишет width: calc(-30%)
+            margin-right: 80px;
+            width: ~"calc(50% - 80px)";
             float: left;
             h3 {
                 color: #000;
@@ -252,7 +252,7 @@ body {
             }
             p {
                 font-size: 12px;
-                line-height: 18;
+                line-height: 18px;
             }
         }
     }
