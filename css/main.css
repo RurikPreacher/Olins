@@ -257,4 +257,63 @@ body {
 .skills_and_team .team {
   width: 50%;
   background: #b7e3b9;
+  position: relative;
+  padding: 100px 125px 65px 90px;
+  box-sizing: border-box;
+}
+.skills_and_team .team .team_slider .item {
+  width: 33.3%;
+}
+.skills_and_team .team .team_slider .item img {
+  max-width: 100%;
+  height: auto;
+}
+.skills_and_team .team .team_slider .item .data {
+  text-align: center;
+  margin-top: 27px;
+}
+.skills_and_team .team .team_slider .item .data h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.skills_and_team .team .team_slider .item .data .position {
+  color: #557356;
+  font-size: 10px;
+  font-family: 'Questrial', sans-serif;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+.skills_and_team .team .arrows {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -38px;
+}
+.skills_and_team .team .arrows .slick-prev {
+  width: 38px;
+  height: 38px;
+  background: #ec9b9b url(../img/left.svg) center center no-repeat;
+  display: block;
+  font-size: 0;
+  border: 0;
+}
+.skills_and_team .team .arrows .slick-prev:hover {
+  background-color: #fee489;
+  transition: all 300ms ease-in-out;
+}
+.skills_and_team .team .arrows .slick-next {
+  width: 38px;
+  height: 38px;
+  background: #ec9b9b url(../img/left.svg) center center no-repeat;
+  display: block;
+  font-size: 0;
+  border: 0;
+  transform: scale(-1,1);
+}
+.skills_and_team .team .arrows .slick-next:hover {
+  background-color: #fee489;
+  transition: all 300ms ease-in-out;
 }
