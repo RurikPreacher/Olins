@@ -1,0 +1,234 @@
+@media (max-width: 1320px) {
+    section.skills_and_team .skills li {
+        width: 100%;
+    }
+    section.skills_and_team .skills {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    section.skills_and_team .team .team_slider div.item img {
+        width: 100%;
+	}
+	section.shop_and_form .shop_box h4 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	section.shop_and_form .shop_box .right_part {
+		margin-right: 100px;
+	}
+	section.shop_and_form .form_box .left_part {
+		width: 50%;
+	}
+	section.shop_and_form .form_box .right_part {
+		width: 48%;
+	}
+	section.shop_and_form .form_box {
+		padding-right: 90px;
+	}
+	footer.footer {
+		flex-wrap: wrap;
+		min-height: 185px;
+		height: auto;
+	}
+	footer.footer .left_data {
+		width: 100%;
+		padding: 30px 90px 30px 90px;
+	}
+	footer.footer .right_data {
+		width: 100%;
+		padding: 30px 90px 30px 90px;
+	}
+	footer.footer .right_data .social {
+		justify-content: center;
+	}
+	.footer_nav {
+		text-align: right;
+	}
+	footer.footer .left_data .contacts {
+		text-align: center;
+	}
+	footer.footer .right_data .social a:first-child {
+		margin-left: 0;
+	}
+}
+@media (max-width: 1200px) {
+	.header .top_slider figure figcaption .info h2 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.header .top_slider figure figcaption .info .category {
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+	section.shop_and_form {
+		flex-wrap: wrap;
+	}
+	section.shop_and_form .shop_box {
+		width: 100%;
+		background-position: top center;
+		justify-content: flex-start;
+		padding-bottom: 90px;
+		padding-top: 90px;
+	}
+	section.shop_and_form .form_box {
+		width: 100%;
+	}
+	section.shop_and_form .shop_box .right_part {
+		margin-left: 70px;
+		margin-right: 0;
+	}
+	section.shop_and_form .form_box .right_part {
+		width: 38%;
+	}
+}
+@media (max-width: 1000px) {
+	.header nav {
+		position: relative;
+	}
+	.header .top_slider .slick-prev {
+		top: 50%;
+		margin-left: 20px;
+	}
+	.header .top_slider .slick-next {
+		top: 50%;
+		margin-right: 20px;
+	}
+	.header nav .cart {
+		width: 5%;
+		min-width: 42px;
+	}
+	.header nav .top_menu {
+		text-align: right;
+	}
+	.header nav .top_menu li {
+		margin-left: 13px;
+		margin-right: 13px;
+	}
+	.header nav .top_menu li:last-child {
+		margin-right: 0;
+	}
+	section.info_box .right_box {
+		padding: 90px;
+	}
+	/* Block Skills*/
+	section.skills_and_team {
+		flex-wrap: wrap;
+	}
+	section.skills_and_team .skills {
+		width: 100%;
+		order: 2;
+	}
+	section.skills_and_team .team {
+		width: 100%;
+		order: 1;
+	}
+	section.skills_and_team .skills li {
+		width: calc(50% - 80px);
+	}
+}
+@media (max-width:768px) {
+	section.info_box {
+		flex-wrap: wrap;
+	}
+	section.info_box .left_box {
+		width: 100%;
+		min-height: 300px;
+	}
+	section.info_box .right_box {
+		width: 100%;
+	}
+	.header .top_slider figure figcaption .info h2 {
+		font-size: 20px;
+	}
+	section.skills_and_team .skills li {
+		width: 100%;
+	}
+	.header nav .top_menu {
+		display: none;
+	}
+	.header nav .mobile_nav {
+		display: block;
+		cursor: pointer;
+		margin-right: 20px;
+	}
+	.header .mobile_navigation_box {
+		height: auto;
+		background: rgba(115, 72, 92, .7);
+	}
+	.header .mobile_navigation_box ul {
+		text-align: center;
+		width: 100%;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.header .mobile_navigation_box ul li {
+		font-size: 13px;
+		color: #fff;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		width: 100%;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+	.header .mobile_navigation_box ul li:hover {
+		color: #fee489;
+		transition: all 300ms ease-in-out;
+	}
+	.header .mobile_navigation_box ul a {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+@media (max-width:600px) {
+    section.info_box .right_box {
+        padding: 50px;
+    }
+    section.skills_and_team .skills {
+        padding-right: 50px;
+        padding-left: 50px;
+	}
+	section.skills_and_team .team {
+		padding-right: 90px;
+	}
+	section.shop_and_form .shop_box {
+		padding-left: 50px;
+	}
+	section.shop_and_form .form_box {
+		padding: 50px;
+		flex-wrap: wrap;
+	}
+	section.shop_and_form .form_box .left_part {
+		width: 100%;
+	}
+	section.shop_and_form .form_box .right_part {
+		width: 100%;
+		margin-top: 100px;
+	}
+	section.shop_and_form .shop_box .right_part {
+		margin-left: 40px;
+	}
+	footer.footer .left_data {
+		padding-left: 50px;
+		padding-right: 50px;
+		flex-wrap: wrap;
+	}
+	footer.footer .left_data .footer_info {
+		width: 100%;
+		font-size: 14px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	footer.footer .left_data .contacts {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.footer_nav {
+		width: 100%!important;
+	}
+	.footer_nav ul {
+		display: flex;
+		justify-content: space-around;
+	}
+}

@@ -48,7 +48,7 @@ body {
         figure {
             position: relative;
             img {
-                min-width: 100%;
+                max-width: 100%;
                 height: auto;
             }
             figcaption {
@@ -120,7 +120,10 @@ body {
             }
         }
     }
-    .nav {
+    .mobile_navigation_box {
+        display: none;
+    }
+    nav {
         position: absolute;
         bottom: 0;
         left: 0;
@@ -166,6 +169,18 @@ body {
             .active {
                 color: #fee489;
             }
+        }
+        .mobile_nav {
+            text-align: right;
+            width: 60%;
+            display: none;
+        }
+        .mobile_nav_close {
+            text-align: right;
+            width: 60%;
+            display: none;
+            cursor: pointer;
+		    margin-right: 20px;
         }
         .cart {
             display: flex;
@@ -419,7 +434,7 @@ body {
             }
         }
     }
-    .from_box {
+    .form_box {
         width: 50%;
         background: url(../img/twitter.jpg) center center no-repeat;
         background-size: cover;
